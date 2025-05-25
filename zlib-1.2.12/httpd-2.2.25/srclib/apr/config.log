@@ -748,7 +748,7 @@ configure:25477: $? = 0
 configure:25494: result: none required
 configure:25502: checking for library containing crypt
 configure:25533: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c  >&5
-/usr/bin/ld: /tmp/cctR9GEx.o: in function `main':
+/usr/bin/ld: /tmp/ccXo6mEJ.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:37:(.text.startup+0xb): undefined reference to `crypt'
 collect2: error: ld returned 1 exit status
 configure:25533: $? = 1
@@ -997,7 +997,7 @@ configure:26337: $? = 0
 configure:26337: result: yes
 configure:26337: checking for pthread_yield
 configure:26337: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/cc6bTxVq.o: in function `main':
+/usr/bin/ld: /tmp/ccrTNM78.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:66:(.text.startup+0xb): undefined reference to `pthread_yield'
 collect2: error: ld returned 1 exit status
 configure:26337: $? = 1
@@ -1340,7 +1340,7 @@ configure:26769: $? = 0
 configure:26769: result: yes
 configure:26769: checking for kqueue
 configure:26769: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccwl2oa1.o: in function `main':
+/usr/bin/ld: /tmp/ccfgWcYR.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:75:(.text.startup+0xb): undefined reference to `kqueue'
 collect2: error: ld returned 1 exit status
 configure:26769: $? = 1
@@ -1426,7 +1426,7 @@ configure: failed program was:
 configure:26769: result: no
 configure:26769: checking for port_create
 configure:26769: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccONgMap.o: in function `main':
+/usr/bin/ld: /tmp/ccsmn6CW.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:75:(.text.startup+0xb): undefined reference to `port_create'
 collect2: error: ld returned 1 exit status
 configure:26769: $? = 1
@@ -2336,7 +2336,7 @@ configure:27364: $? = 0
 configure:27364: result: yes
 configure:27364: checking for create_area
 configure:27364: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccgHe8Ye.o: in function `main':
+/usr/bin/ld: /tmp/ccmyr7gI.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:102:(.text.startup+0xb): undefined reference to `create_area'
 collect2: error: ld returned 1 exit status
 configure:27364: $? = 1
@@ -2657,7 +2657,7 @@ configure:28393: $? = 0
 configure:28393: result: yes
 configure:28393: checking for send_file
 configure:28393: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccCqS6m5.o: in function `main':
+/usr/bin/ld: /tmp/ccrlyquC.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:124:(.text.startup+0xb): undefined reference to `send_file'
 collect2: error: ld returned 1 exit status
 configure:28393: $? = 1
@@ -2792,7 +2792,7 @@ configure: failed program was:
 configure:28393: result: no
 configure:28393: checking for sendfilev
 configure:28393: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccoJTtt6.o: in function `main':
+/usr/bin/ld: /tmp/ccCoi1cm.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:124:(.text.startup+0xb): undefined reference to `sendfilev'
 collect2: error: ld returned 1 exit status
 configure:28393: $? = 1
@@ -3075,7 +3075,7 @@ configure:28601: $? = 0
 configure:28613: result: yes
 configure:28623: checking for _getch
 configure:28623: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccFxL00Z.o: in function `main':
+/usr/bin/ld: /tmp/ccwDrQCd.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:127:(.text.startup+0xb): undefined reference to `_getch'
 collect2: error: ld returned 1 exit status
 configure:28623: $? = 1
@@ -3370,7 +3370,7 @@ configure:28721: $? = 0
 configure:28721: result: yes
 configure:28721: checking for getpassphrase
 configure:28721: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/cclmrskS.o: in function `main':
+/usr/bin/ld: /tmp/ccVBeJHn.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:131:(.text.startup+0xb): undefined reference to `getpassphrase'
 collect2: error: ld returned 1 exit status
 configure:28721: $? = 1
@@ -11848,7 +11848,7 @@ configure:30696: $? = 0
 configure:30706: result: 16
 configure:30746: checking for strnicmp
 configure:30746: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/cc8NEnWw.o: in function `main':
+/usr/bin/ld: /tmp/cct7qoUA.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:193:(.text.startup+0xb): undefined reference to `strnicmp'
 collect2: error: ld returned 1 exit status
 configure:30746: $? = 1
@@ -12059,7 +12059,7 @@ configure:30759: $? = 0
 configure:30759: result: yes
 configure:30772: checking for stricmp
 configure:30772: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccV9B5SR.o: in function `main':
+/usr/bin/ld: /tmp/ccoG490l.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:194:(.text.startup+0xb): undefined reference to `stricmp'
 collect2: error: ld returned 1 exit status
 configure:30772: $? = 1
@@ -12772,7 +12772,7 @@ configure:31419: $? = 0
 configure:31419: result: yes
 configure:31419: checking for create_sem
 configure:31419: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccHGzK82.o: in function `main':
+/usr/bin/ld: /tmp/cc7cLo7L.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:211:(.text.startup+0xb): undefined reference to `create_sem'
 collect2: error: ld returned 1 exit status
 configure:31419: $? = 1
@@ -17482,7 +17482,7 @@ configure:32842: checking for sys/uuid.h
 configure:32842: result: no
 configure:32856: checking for library containing uuid_create
 configure:32887: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/cciOFRsP.o: in function `main':
+/usr/bin/ld: /tmp/ccVupCxD.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:204:(.text.startup+0xb): undefined reference to `uuid_create'
 collect2: error: ld returned 1 exit status
 configure:32887: $? = 1
@@ -17909,7 +17909,7 @@ configure: failed program was:
 configure:32904: result: no
 configure:32912: checking for library containing uuid_generate
 configure:32943: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/cct6yr2e.o: in function `main':
+/usr/bin/ld: /tmp/cc3S4tkB.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:204:(.text.startup+0xb): undefined reference to `uuid_generate'
 collect2: error: ld returned 1 exit status
 configure:32943: $? = 1
@@ -18336,7 +18336,7 @@ configure: failed program was:
 configure:32960: result: no
 configure:32976: checking for uuid_create
 configure:32976: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccO1vu41.o: in function `main':
+/usr/bin/ld: /tmp/ccT2Q2Mc.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:227:(.text.startup+0xb): undefined reference to `uuid_create'
 collect2: error: ld returned 1 exit status
 configure:32976: $? = 1
@@ -18574,7 +18574,7 @@ configure: failed program was:
 configure:32976: result: no
 configure:32976: checking for uuid_generate
 configure:32976: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/cc4dunPC.o: in function `main':
+/usr/bin/ld: /tmp/ccLfGlTb.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:227:(.text.startup+0xb): undefined reference to `uuid_generate'
 collect2: error: ld returned 1 exit status
 configure:32976: $? = 1
@@ -20161,7 +20161,7 @@ configure:34064: $? = 0
 configure:34071: result: yes
 configure:34088: checking for set_h_errno
 configure:34088: gcc -o conftest -g -O2 -DLINUX -D_REENTRANT -D_GNU_SOURCE  conftest.c -lcrypt  -lpthread >&5
-/usr/bin/ld: /tmp/ccsqSH9o.o: in function `main':
+/usr/bin/ld: /tmp/ccu1o8YV.o: in function `main':
 /home/runner/work/apache-ultimate-bad-bot-blocker/apache-ultimate-bad-bot-blocker/zlib-1.2.12/httpd-2.2.25/srclib/apr/conftest.c:234:(.text.startup+0xb): undefined reference to `set_h_errno'
 collect2: error: ld returned 1 exit status
 configure:34088: $? = 1
